@@ -1,0 +1,54 @@
+{
+  "name": "schedul-care-frontend",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "cypress": "npx cypress open"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.5.2",
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.25.9",
+    "@paypal/react-paypal-js": "^8.7.0",
+    "antd": "^5.22.3",
+    "babel-loader": "^9.2.1",
+    "bootstrap-icons": "^1.11.3",
+    "cypress": "^13.16.0",
+    "dayjs": "^1.11.13",
+    "open-location-code": "^1.0.3",
+    "prop-types": "^15.8.1",
+    "qrcode.react": "^4.1.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-icons": "^5.4.0",
+    "react-markdown": "^9.0.1",
+    "react-router-dom": "^6.14.1",
+    "react-scripts": "^5.0.1",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "@types/react": "^18.3.12",
+    "cypress": "^13.16.0",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-xpath": "^2.0.1",
+    "html-webpack-plugin": "^5.6.3",
+    "tailwindcss": "^3.4.16"
+  }
+}
